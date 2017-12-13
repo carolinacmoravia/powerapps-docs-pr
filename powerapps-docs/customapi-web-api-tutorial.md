@@ -97,7 +97,7 @@ You should now be able to use AAD to authenticate your web application.
 ## Add the custom connector to PowerApps
 1. Modify your OpenAPI file to add the `securityDefintions` object and AAD authentication used for the Web App. The section of your OpenAPI file with the **host** property should look like this:
 
-    ```javascript
+```javascript
     // File header should be above here...
 
     "host": "<your-root-url>",
@@ -114,7 +114,7 @@ You should now be able to use AAD to authenticate your web application.
     },
 
     // The rest of the OpenAPI document follows...
-    ```
+```
 
 1. Browse to [PowerApps](https://web.powerapps.com), and add a custom connector as described in [Register and use custom connectors in PowerApps](register-custom-api.md).
 
